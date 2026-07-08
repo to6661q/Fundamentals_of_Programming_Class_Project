@@ -1,0 +1,28 @@
+PSEUDOCODE BALIK NILAI ARRAY
+Procedure baliknilaiArray (a[ ]:int, b:int)
+{
+	Nama		:  Toriq As-Syarif
+	Tanggal	: 25 Oktober 2018
+Procedure untuk mengisi, mencetak, serta membalik nilai array.
+}
+Deklarasi
+	k: int
+a[n]:int
+Algoritma
+	output ( “Masukkan batas bilangan perulangan:” )
+	input (n)
+	isiArray (a,n)
+endProcedure
+
+Procedure isiArray (a[]:int, b:int)
+Deklarasi
+	k:int
+Algoritma
+	for (k:=0 to n-1)
+		output ( “Masukkan nilai bilangan a[“+k+”]” )
+		input ( a[k] )
+	endfor
+	for (k:=b down to n-1)
+		output (a[k]+” “)
+	endfor
+end Procedure
