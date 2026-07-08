@@ -1,0 +1,39 @@
+PSEUDOCODE ISI ARRAY
+
+{
+Nama 	 	: Toriq As-Syarif
+Tanggal 	: 25 Oktober 2018
+Program procedure untuk mengisi variable a larik dari 0 s.d n-1 menggunakan  looping for dan masukan nilai n dari pengguna.
+}
+
+Procedure isiArray ( a[ ]:n, n:int )
+
+Deklarasi
+	k : int
+
+Algoritma
+	for (k:=0 to n-1)
+		output (“Masukkan nilai bilangan a[“k”]”)
+		input (a[k])
+	endfor
+
+endProcedure
+
+PSEUDOCODE CETAK ARRAY
+
+Procedure cetakArray ( a[ ] : int, n : int )
+{
+Program procedure untuk mencetak nilai array x dari elemen 0 s.d  n-1 dengan menggunakan looping for.
+}
+
+Deklarasi
+	k : int
+
+Algoritma
+	k = 0
+	output ( “ Nilai bilangan array adalah “ )
+	output ln( )
+	for (k := 0 to n-1)
+		output (a[k]+ “ “)
+	endfor
+endProcedure 
