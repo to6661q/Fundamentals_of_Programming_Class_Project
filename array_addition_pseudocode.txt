@@ -1,0 +1,61 @@
+PSEUDOCODE TAMBAH ARRAY
+
+{
+	Nama		: Toriq As-Syarif
+Tanggal	: 25 Oktober 2018
+Program procedure untuk menentukan elemen c, dimana  elemenc adalah penjumlahan dari elemen  a dan elemen b.
+}
+
+Procedure isiAray ( a[ ]:n, n:int )
+
+Deklarasi
+	k : int
+
+Algoritma
+	for ( i:=0 to n-1 )
+		output ( “Masukkan  nilai bilangan a[“k”]” )
+		input ( k )
+		output ( “Masukkan nilaibilangan b[“k”]” )
+		input ( k )
+		output ln
+	endfor
+endProcedure
+
+Procedure cetakArray ( a[ ]:int, n:int )
+
+Deklarasi
+	k : int
+
+Algoritma
+	for (k:=0 to n-1)
+		output ( a[ ] )
+		output ( “ “ )
+	endfor
+endProcedure
+
+Procedure tambahArray (a[ ]:int, b[ ]:int, c[ ]:int, n:int )
+
+Deklarasi
+	k : int
+
+Algoritma
+	for (k:=0 to n-1)
+	c[k] = a[k]+b[k]
+
+endProcedure
+
+Deklarasi
+	n: int
+	o[n]:int
+	p[n]:int
+	q[n]:int
+
+Algoritma
+	output (“Masukkan batas bilangan perulangan : ” )
+	input ( n )
+	output ln
+	isiArray (o,p,n)
+	tambahArray (o,p,q,n)
+	cetakArray (q,n)
+
+endProcedure
